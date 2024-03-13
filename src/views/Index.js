@@ -1,9 +1,5 @@
 import React from "react";
 
-// reactstrap components
-// import {
-// } from "reactstrap";
-
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
@@ -11,6 +7,8 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import CounterSection from "./index-sections/CounterSection.js";
+import IntroductionSection from "./index-sections/IntroductionSection.js";
+import ServicesSection from "./index-sections/ServiceCard.js";
 import BasicElements from "./index-sections/BasicElements.js";
 import Navbars from "./index-sections/Navbars.js";
 import Tabs from "./index-sections/Tabs.js";
@@ -44,6 +42,8 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <CounterSection />
+          <IntroductionSection />
+          <ServicesSection />
           <BasicElements />
           <Navbars />
           <Tabs />

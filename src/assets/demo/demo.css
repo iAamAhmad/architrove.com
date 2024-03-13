@@ -15,6 +15,10 @@
   width:30%;
   padding:0
 }
+.introduction h3,.introduction p{
+  color:#222;
+  font-weight: 400;
+}
 .counter-section{
   background-color: #007bff;
   display: flex;
